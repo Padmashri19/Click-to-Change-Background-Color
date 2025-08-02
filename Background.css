@@ -1,0 +1,33 @@
+body {
+  background: blueviolet;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transition: 0.3s;
+}
+
+h2 {
+  color:white;
+  font-weight: 200;
+}
+
+button {
+  padding: 15px;
+  background: transparent;
+  border: 2px solid black;
+  color: white;
+  transition: 0.8s;
+}
+
+button:hover {
+  background: white;
+  color: black;
+  cursor: pointer;
+  border-radius: 50px;
+}
+
+button:active {
+  padding: 5px;
+}
